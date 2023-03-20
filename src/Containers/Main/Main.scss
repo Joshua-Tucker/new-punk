@@ -1,0 +1,19 @@
+@use "../../assets/sass/variables" as *;
+
+
+.main-container{
+    display:flex;
+    flex-direction: column;
+    background-color:$colorThree;
+    align-items: center;
+    
+    .main-container__title{
+        margin-top:2rem;
+        border: 2px solid $colorFive;
+        border-radius: 10rem;
+        width:40%;
+        padding:2%;
+        font-size: medium;
+        background-color: $colorFour;
+    }
+}
